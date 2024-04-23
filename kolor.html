@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl2.css"/>
+    <title>Pomocnik CSS</title>
+</head>
+<body>
+    <div id="box">
+        <div class="banner">
+            <h1>Pomocnik CSS</h1>
+        </div>
+        <div class="banner">
+            <ul>
+                <li><a href="kolor.html">Kolory</a></li>
+                <li><a href="czcionki.html">Czcionki</a></li>
+                <li><a href="style.html">Style CSS</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">Pomoc</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <h2>Podaj składową H koloru w kodzie HSL</h2>
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
+            <img src="kolory.jpg" alt="Przestrzeń barw HSL"/>
+            <input type="number" min="0" max="360" id="colorWartosc" step="0.1"/>
+            <input type="button" value="Generuj paletę" onclick="ColorPicker()"/>
+            <table border="1">
+                <tr>
+                    <td id="komorka0" colspan="4">k</td>
+                </tr>
+                <tr>
+                    <td id="komorka1">1</td> 
+                    <td id="komorka2">2</td> 
+                    <td id="komorka3">3</td> 
+                    <td id="komorka4">4</td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer">
+            <p>Autor: Dominik Pękal</p>
+        </div>
+    </div>
+    <script src="skrypt.js"></script>
+</body>
+</html>

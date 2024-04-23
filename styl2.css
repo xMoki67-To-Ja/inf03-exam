@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+#box{
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    background-color: linen;
+    color: #222;
+    width: 90%;
+}
+
+#main{
+    padding: 20px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+table{
+    margin:40px;
+}
+
+li{
+    display: inline-block;
+    padding:5px;
+    margin:10px;
+    text-decoration: underline 1px white;
+}
+
+td{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    color: #aaa;
+}
+
+a:hover{
+    color: white;
+}
+
+

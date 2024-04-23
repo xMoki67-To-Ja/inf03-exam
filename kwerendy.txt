@@ -1,0 +1,4 @@
+SELECT klient.imie, klient.nazwisko, klient.miasto FROM klient WHERE klient.miasto LIKE "Legionowo" OR klient.miasto LIKE "Warszawa";
+SELECT produkty.nazwa FROM produkty WHERE produkty.cena_brutto > 500;
+SELECT kategorie.nazwa_kategorii, AVG(produkty.cena_brutto) AS srednia_cena FROM kategorie INNER JOIN produkty ON kategorie.id_kat=produkty.id_kat GROUP BY kategorie.id_kat;
+SELECT zamowienia.id_zam, zamowienia.ilosc, zamowienia.wartosc, produkty.nazwa FROM zamowienia INNER JOIN produkty ON zamowienia.id_prod=produkty.id_prod WHERE zamowienia.id_klient = 2;
